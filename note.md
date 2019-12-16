@@ -130,6 +130,9 @@ applicative order (evaluate the arguments then apply):
 #### 1.2.5 Greatest Common Divisors
 
 - Fermat's Little Theorem: If n is a prime number and a is any positive integer less than n, then a rised to the nth power is congruent to a modulo n.
+- If n is not prime, then, in general, most of the numbers `a < n` will not satisfy the above relation. This leads to the following algorithm for testing primality: Given a number `n`, pick a random number `a < n` and compute the remainder of `a^n mod n`. If the result is not equal to a, then `n` is certainly not prime.
+
+### 1.3 Formulating Abstrations with Higher-Order Procedures
 
 ## Chapter 2: Building Abstractions with Data
 

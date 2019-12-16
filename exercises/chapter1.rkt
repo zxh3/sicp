@@ -70,7 +70,7 @@
 ; TODO
 
 
-; exercise 1.17
+; exercise 1.16
 (define (exp-iter-test b n)
   (exp-iter 1 b n))
 
@@ -89,3 +89,4 @@
   (cond ((= a 0) c)
         ((even? a) (fast-mul-iter (half a) (double b) c))
         (else (fast-mul-iter (- a 1) b (+ c b)))))
+
