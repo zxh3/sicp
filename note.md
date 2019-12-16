@@ -111,6 +111,26 @@ applicative order (evaluate the arguments then apply):
 
 ### 1.2 Procedures and the Processes They Generate
 
+- A procedure is a pattern for the **local evolution** of a computational process
+
+#### 1.2.1 Linear Recursion and Iteration
+
+- recursive v.s. iterative
+- procedure recursive v.s. progress recursive
+
+#### 1.2.2 Tree Recursion
+
+- In general, the number of steps required by a tree-recursive process will e proportional to the number of nodes in the tree, while the space required will be proportional to the maximum depth of the tree
+
+#### 1.2.3 Order of growth
+
+- Let n be a parameter that measures the size of the problem, and let R(n) be the amount of resources the process requires for a problem of size n.
+- We say that R(n) has order of growth theta(f(n)), written R(n) = theta(f(n)), if there are positive constants k1 and k2 independent of n such that k1 f(n) <= R(n) <= k2 f(n) for any sufficiently large value of n
+
+#### 1.2.5 Greatest Common Divisors
+
+- Fermat's Little Theorem: If n is a prime number and a is any positive integer less than n, then a rised to the nth power is congruent to a modulo n.
+
 ## Chapter 2: Building Abstractions with Data
 
 ## Chapter 3: Modularity, Objects, and State
